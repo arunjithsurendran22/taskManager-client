@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const api = axios.create({
-  baseURL: "http://localhost:3000/api/v2/todo"
+  baseURL: "https://task-manager-server-kappa-nine.vercel.app//api/v2/todo"
 });
 // Request interceptor for adding the bearer token
 api.interceptors.request.use(
